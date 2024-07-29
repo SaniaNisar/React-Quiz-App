@@ -1,0 +1,61 @@
+.quiz-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* Light blue background color for the entire app */
+}
+
+.quiz-card {
+  background-color: #ffffff; /* White background color for the card */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.quiz h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.option-button {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  color: black;
+  padding: 10px 20px;
+  margin: 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.option-button.selected {
+  background-color: #008CBA;
+  color: white;
+}
+
+.next-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
